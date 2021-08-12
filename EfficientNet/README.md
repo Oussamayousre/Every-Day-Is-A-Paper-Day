@@ -46,4 +46,3 @@ model.add(layers.Dense(1, activation="sigmoid"))
 ```
 
 ## Example on a real Dataset
-you can find the Example notebook below 
