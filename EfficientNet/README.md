@@ -14,7 +14,7 @@ the empirical studies shows that it is unavoidable to scale up width/depth/resol
 <img src=https://user-images.githubusercontent.com/47725118/129231751-9de3c3b9-bbfe-4045-8314-c3210401ccf3.png ,width="50%" />
 </td>
 <td>  
-<img src=https://user-images.githubusercontent.com/47725118/129231881-4d3ec1e6-768e-4aa1-aead-c72d2332e176.png, width="500%" />
+<img src=https://user-images.githubusercontent.com/47725118/129237055-c299f27b-91d6-4dee-abb5-9644bfc7e3c2.png ,width="50%" />
 </td>
 
 EfficientNet achieve the state-of-the-art with a better FLOPS (floating point operations) which means less operations are required to run a single instance the model , better accuracy and less parameters , what else !!!!
