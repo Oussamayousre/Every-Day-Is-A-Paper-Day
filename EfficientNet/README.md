@@ -2,7 +2,7 @@
 Table of Content 
 
 1.About EfficientNet
-2.Implementation on Keras]
+2.Implementation on Keras
 3.Example on a real Dataset
 
 1. [About EfficientNet]
