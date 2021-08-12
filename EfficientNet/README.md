@@ -3,8 +3,8 @@ Table of Content
 
 
  1. [About EfficientNet](#about-efficientnet)
- 2. [Implementation in Keras](#Implementation in Keras)
- 3. [Example on a real Dataset](#Example on a real Dataset)
+ 2. [Implementation in Keras](#Implementation-in-Keras)
+ 3. [Example on a real Dataset](#Example-on-a-real-Dataset)
 
 
 ## About EfficientNet
