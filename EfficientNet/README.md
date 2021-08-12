@@ -13,8 +13,8 @@ the empirical studies shows that it is unavoidable to scale up width/depth/resol
 <table border="0">
 <tr>
     <td>
-    ![image](https://user-images.githubusercontent.com/47725118/129231751-9de3c3b9-bbfe-4045-8314-c3210401ccf3.png)
-    ![image](https://user-images.githubusercontent.com/47725118/129231881-4d3ec1e6-768e-4aa1-aead-c72d2332e176.png)
+     <img src=https://user-images.githubusercontent.com/47725118/129231751-9de3c3b9-bbfe-4045-8314-c3210401ccf3.png width="100%" />
+     <img src=https://user-images.githubusercontent.com/47725118/129231881-4d3ec1e6-768e-4aa1-aead-c72d2332e176.png, width="90%" />
     </td>
 </tr>
 </table>
