@@ -10,16 +10,13 @@ Table of Content
 Convultional neural network are developed at a fixed resource budget then it comes the fine-tuning and scaling phase for better accuracy , in the EfficientNet paper
 the empirical studies shows that it is unavoidable to scale up width/depth/resolution in a balanced way , in order to do that ,they propose a simple effective compoud scaling method , this method scales uniformly network width , depth , resolution , with a set of fixed scaling coefficients  , the authors of the paper claim that we can achieve better accuracy in case we search the best fit of width , depth , resolution separatly , but the search becomes infeasible and high expensive 
 
-<table border="0">
-<tr>
-  <td>
-  <img src=https://user-images.githubusercontent.com/47725118/129231751-9de3c3b9-bbfe-4045-8314-c3210401ccf3.png ,width="50%" />
-  </td>
-  <td>  
-  <img src=https://user-images.githubusercontent.com/47725118/129231881-4d3ec1e6-768e-4aa1-aead-c72d2332e176.png, width="500%" />
-  </td>
-</tr>
-</table>
+<td>
+<img src=https://user-images.githubusercontent.com/47725118/129231751-9de3c3b9-bbfe-4045-8314-c3210401ccf3.png ,width="50%" />
+</td>
+<td>  
+<img src=https://user-images.githubusercontent.com/47725118/129231881-4d3ec1e6-768e-4aa1-aead-c72d2332e176.png, width="500%" />
+</td>
+
 EfficientNet achieve the state-of-the-art with a better FLOPS (floating point operations) which means less operations are required to run a single instance the model , better accuracy and less parameters , what else !!!!
 
 2. [Implementation on Keras] 
