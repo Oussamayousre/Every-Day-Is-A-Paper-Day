@@ -1,11 +1,13 @@
 # EfficientNet Keras (and TensorFlow Keras)
 Table of Content 
 
-1.About EfficientNet
-2.Implementation on Keras
-3.Example on a real Dataset
 
-1. [About EfficientNet]
+ 1. [About EfficientNet](#about-efficientnet)
+ 2. [Implementation in Keras](#Implementation in Keras)
+ 3. [Example on a real Dataset](#Example on a real Dataset)
+
+
+## About EfficientNet
 
 Convultional neural network are developed at a fixed resource budget then it comes the fine-tuning and scaling phase for better accuracy , in the EfficientNet paper
 the empirical studies shows that it is unavoidable to scale up width/depth/resolution in a balanced way , in order to do that ,they propose a simple effective compoud scaling method , this method scales uniformly network width , depth , resolution , with a set of fixed scaling coefficients  , the authors of the paper claim that we can achieve better accuracy in case we search the best fit of width , depth , resolution separatly , but the search becomes infeasible and high expensive 
@@ -19,9 +21,8 @@ the empirical studies shows that it is unavoidable to scale up width/depth/resol
 
 EfficientNet achieve the state-of-the-art with a better FLOPS (floating point operations) which means less operations are required to run a single instance the model , better accuracy and less parameters , what else !!!!
 
-2. [Implementation on Keras] 
 
-## Implementation on Keras 
+## Implementation in Keras
 
 loading the base base model
 ```python
@@ -45,6 +46,5 @@ model.add(layers.Dense(8, activation="relu"))
 model.add(layers.Dense(1, activation="sigmoid"))
 ```
 
-3. [Example on a real Dataset]
-
+## Example on a real Dataset
 you can find the Example notebook below 
