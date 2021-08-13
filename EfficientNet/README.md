@@ -18,12 +18,12 @@ Convolutional neural networks are developed at a fixed resources budget then it 
 <img src=https://user-images.githubusercontent.com/47725118/129237055-c299f27b-91d6-4dee-abb5-9644bfc7e3c2.png ,width="50%" />
 </td>
 
-EfficientNet achieve the state-of-the-art with a better FLOPS (floating point operations) which means less operations are required to run a single instance the model , better accuracy and less parameters , what else !!!!
+EfficientNet achieves the state-of-the-art with a better FLOPS (floating point operations) which means less operations are required to run a single instance the model , better accuracy and less parameters , what else !!!!
 
 
 ## Implementation in Keras
 
-loading the base base model
+loading the base model
 ```python
 # models can be build with Keras or Tensorflow frameworks
 # we commonly use the  imagenet pre-trained weights , so this parameter allows us to do some transfer learning 
@@ -32,7 +32,7 @@ loading the base base model
 conv_base = EfficientNetB6(weights="imagenet", include_top=False, input_shape=input_shape , classes = num_classes )
 
 ```
-connfiguring the model 
+configuring the model 
 ```python
  
 model = models.Sequential()
