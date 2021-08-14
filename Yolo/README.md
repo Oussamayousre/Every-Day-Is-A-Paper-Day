@@ -4,3 +4,4 @@ how Yolo Works ?
 Yolo is a Model that detects objects in a seperate way , one image can be cut to 19x19 ( the number depends on how you cut you training data) grid cells so the model can predict cells , ![image](https://user-images.githubusercontent.com/47725118/129443462-f90ea33c-2e15-4b0b-a502-3ccd89b8184f.png)
 for each grid cell , we have the following labels for training 
 ![image](https://user-images.githubusercontent.com/47725118/129443479-652ae1ca-46d7-4d8a-8f8d-6563d697eb78.png)
+notice that the cell grid with the center point , it's Pc = 1 , Pc is the confidence score , it reflects how confident the model is  , that the box contains an object and also how accurate it thinks the box  is that it predicts , the confidence is defined as  Pr(Object) ∗ IOU(truth,pred) , Pr(object) is the probability that a grid cell contains an object 
